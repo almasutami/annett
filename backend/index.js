@@ -3,7 +3,7 @@ const cors = require("cors");
 const bearerToken = require("express-bearer-token");
 const bodyParser = require("body-parser"); //menerjemahkan databody dr url req frontend -> npm install body-parser
 
-const port = 2700; //port
+const port =  process.env.PORT || 2700; //port
 const app = express();
 
 app.use(cors());
@@ -44,5 +44,5 @@ app.use("/cart", cartRouter);
 app.use("/transaction", transactionRouter);
 app.use("/warehouse", warehouseRouter);
 
-app.listen(port, () => `Server running in port ${port}`);
+app.listen(port, () => console.log(`Server running in port ${port}`));
 //running nya pakai npx nodemon index.js
