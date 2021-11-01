@@ -431,5 +431,5 @@ const mapDispatchToProps = {
 const connector = connect(mapStateToProps, mapDispatchToProps)(Cart);
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyDzMPppyMnGM_KXvislVeOiGAy17Pw6yOM'
+    apiKey: 'XXXXX'
 })(connector);
