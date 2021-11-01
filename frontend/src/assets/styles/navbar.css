@@ -1,0 +1,118 @@
+@font-face { font-family: poppins-regular; src: url('../fonts/Poppins-Regular.ttf'); } 
+
+
+h1{
+    font-family: 'poppins-regular';
+    font-size: 36px !important;
+}
+
+h2{
+    font-family: 'poppins-regular';
+    font-size: 24px !important;
+}
+
+h3{
+    font-family: 'poppins-regular';
+    font-size: 18px !important;
+}
+
+h4{
+    font-family: 'poppins-regular';
+    font-size: 14px !important;
+    margin:0 !important;
+}
+
+form{
+    font-family: 'poppins-regular';
+    font-size: 12px !important;
+}
+
+p{
+    font-family: 'poppins-regular';
+    font-size: 12px !important;
+    margin: 0px !important;
+}
+
+.link, .button{
+    font-family: 'poppins-regular';
+    font-size: 12px;
+    padding: 0;
+    margin:0;
+    border:none;
+    background-color: white;
+    text-decoration: none;
+}
+
+.dropdown{
+    width:12vw;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.dropdown:hover{
+    width:12vw;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.link:hover, .button:hover{
+    font-family: 'poppins-regular';
+    font-size: 12px;
+    padding: 0;
+    margin:0;
+    border:none;
+    background-color: white;
+    text-decoration: underline;
+    color: black;
+}
+
+.icon{
+    margin-right: 2px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px !important;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    border-bottom: lightgrey 1px solid;
+}
+
+.centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3px;
+    padding: 3px 6px 3px 6px;
+    align-items: center;
+    height: 30px;
+}
+
+.navbar-logo {
+    height: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.button-link{
+    text-decoration: none;
+    color:black;
+}
+
+.middle-nav{
+    margin-right: 1px;
+    align-items: center;
+}
+
+.dropdown{
+    color: black;
+    padding: 0px;
+}

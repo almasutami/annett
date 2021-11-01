@@ -1,0 +1,94 @@
+@font-face { font-family: poppins-regular; src: url('../fonts/Poppins-Regular.ttf'); } 
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 70%;
+    height: 25%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.carousel-card{
+    display: block;
+    width: 80vh;
+    height: 75vh;
+}
+
+img{
+    object-fit: cover;
+    align-self: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-basic{
+    color: white !important;
+    background-color: black !important;
+    transition: transform .2s !important;
+    padding: 10px !important;
+}
+
+.btn-basic:hover{
+    color: white !important;
+    background-color: black !important;
+    padding: 10px !important;
+    transform: scale(1.06) !important;
+    animation:ease-in-out !important;
+    text-decoration: none !important;
+}
+
+.big-logo {
+    height: 200px;
+}
+
+h1{
+    font-family: 'poppins-regular';
+    font-size: 36px !important;
+}
+
+h2{
+    font-family: 'poppins-regular';
+    font-size: 24px !important;
+}
+
+h3{
+    font-family: 'poppins-regular';
+    font-size: 18px !important;
+}
+
+h4{
+    font-family: 'poppins-regular';
+    font-size: 14px !important;
+    margin:0 !important;
+}
+
+form{
+    font-family: 'poppins-regular';
+    font-size: 12px !important;
+}
+
+p{
+    font-family: 'poppins-regular';
+    font-size: 12px !important;
+    margin: 0px !important;
+}
+
+.box{
+    border: solid 1px lightgrey;
+    box-shadow: 0px 8px 16px rgba(92, 107, 192, 0.2);
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.payment-container{
+    margin-top: 150px
+}
+
+/* .container{
+    padding-top: 100px;
+} */
